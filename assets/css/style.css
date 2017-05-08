@@ -8,6 +8,14 @@ header {
 	margin-bottom: 4%;
 }
 
+.btn-link+.btn-link {
+	border-left: solid 1px #ccc;
+}
+
+.btn-link:hover {
+	text-decoration: none;
+}
+
 #logo {
 	background-color: #4aaaa5;
 	color: #ffffff;
@@ -22,10 +30,6 @@ header {
 	background-color: #ffffff;
 }
 
-.social {
-	width: 62px;
-	height: 62px;
-}
 
 footer {
 	padding: 30px 0;
